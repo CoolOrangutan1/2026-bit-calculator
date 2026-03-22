@@ -20,9 +20,9 @@ def int_check(question, low):
 
 # calculates how many bits are needed to represent an integer
 def image_calc():
+    # Get the image dimensions
     width = int_check("Width: ", 1)
     height = int_check("Height: ", 1)
-    print(height)
 
     # calculate the number of pixels and multiply by 24 to get the number of bits
     num_pixels = width * height
